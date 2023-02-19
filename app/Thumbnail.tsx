@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import { HandThumbUpIcon, HandThumbDownIcon } from "@heroicons/react/24/outline";
 export default function Thumbnail({ Result }: { Result: any }) {
+  
   const Base_URL: String = "https://image.tmdb.org/t/p/original/";
   return (
     <div className="p-2 transition duration-200 transform sm:hover:scale-105 hover:z-50 group cursor-pointer">
@@ -13,7 +14,7 @@ export default function Thumbnail({ Result }: { Result: any }) {
         loading="lazy"
       />
       <div className="p-2">
-        <p className="truncate max-w-md"> {Result.overview}</p>
+        <p className="truncate max-w-sm"> {Result.overview}</p>
         <h2 className="mt-1 test-2xl text-white transition duration-100 ease-in-out group-hover:font-bold">
           {Result.title || Result.original_name}
         </h2>
