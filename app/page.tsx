@@ -2,12 +2,14 @@ import Header from "./Header";
 import Nav from "./Nav";
 import Results from "./Results";
 import Category from "@/utils/request";
-import ClipVertical from "./Clip";
+import { Suspense } from "react";
+import Loading from "./loading";
 
 const getCategory = async (genre: keyof typeof Category) => {
   const uri = Category[genre].url;
+  console.log(uri);
   const res = await fetch(`https://api.themoviedb.org/3${uri}`, {
-    cache: "force-cache",
+    cache: "no-store",
   });
   if (!res.ok) {
     // This will activate the closest `error.js` Error Boundary
@@ -16,9 +18,9 @@ const getCategory = async (genre: keyof typeof Category) => {
   return res.json();
 };
 
-const getData = async (uri: any) => {
+const getData = async (uri: string) => {
   const res = await fetch(uri, {
-    cache: "no-store",
+    cache: "force-cache",
   });
   if (!res.ok) {
     // This will activate the closest `error.js` Error Boundary
@@ -56,7 +58,6 @@ async function Home({
         trendingWeek={trendingWeek.results}
         populer={populer.results}
       />
-
       {/* Result */}
       <Results results={resCategory.results} />
     </div>
