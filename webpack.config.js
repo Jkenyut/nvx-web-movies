@@ -1,5 +1,5 @@
 resolve: {
-  alias: {
-    core: path.join(__dirname, "core");
-  }
+    alias: {
+        core: path.join(__dirname, "core");
+    }
 }
