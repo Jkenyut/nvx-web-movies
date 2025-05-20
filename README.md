@@ -1,8 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# NVX Web Movies
+
+A modern web application for browsing and discovering movies, built with [Next.js](https://nextjs.org/).
+
+## Features
+
+- Browse popular and trending movies
+- Search for movies by title
+- View detailed information about each movie
+- Responsive and fast user interface
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js (v16 or later recommended)
+- npm, yarn, or pnpm
+
+### Installation
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/your-username/nvx-web-movies.git
+cd nvx-web-movies
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
+
+### Running the Development Server
 
 ```bash
 npm run dev
@@ -12,29 +40,48 @@ yarn dev
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the app.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Building for Production
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+```bash
+npm run build
+npm start
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- `app/` - Main application pages and components
+- `pages/api/` - API routes
+- `public/` - Static assets
+- `styles/` - Global styles
+
+## Customization
+
+- Edit `app/page.tsx` to modify the main page.
+- API routes can be found in `pages/api/`.
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Deployment Documentation](https://nextjs.org/docs/deployment)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contributing
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Contributions are welcome! To contribute:
 
-## Deploy on Vercel
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/your-feature`).
+3. Commit your changes (`git commit -m "Add your feature"`).
+4. Push to the branch (`git push origin feature/your-feature`).
+5. Open a pull request.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is licensed under the MIT License. See the [LICENSE](https://opensource.org/license/mit) file for details.
 
-jos
+## Contact
+
+For inquiries or feedback, please contact:
+
+- Satria Nur Saputro: [satrianursaputro06@gmail.com](mailto:satrianursaputro06@gmail.com)
