@@ -2,14 +2,27 @@
 
 A modern web application for browsing and discovering movies, built with [Next.js](https://nextjs.org/).
 
+
 ## Features
 
-- Browse popular and trending movies
+- Browse popular, top-rated, and trending movies
 - Search for movies by title
-- View detailed information about each movie
-- Responsive and fast user interface
+- View detailed information about each movie (e.g., synopsis, cast, ratings, trailers)
+- Responsive and fast user interface, optimized for all devices
+- Modern UI/UX for an engaging movie discovery experience
+
+## Tech Stack
+
+- **Framework:** [Next.js](https://nextjs.org/) 13+ (App Router)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Language:** TypeScript (implied by `.tsx` usage)
+- **Package Manager:** npm / yarn / pnpm
+- **Data Fetching:** (Specify if you're using SWR, React Query, or native fetch with Server Components)
+- **Movie Data Source:** (e.g., TMDB API)
 
 ## Getting Started
+
+Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Prerequisites
 
@@ -21,18 +34,18 @@ A modern web application for browsing and discovering movies, built with [Next.j
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/your-username/nvx-web-movies.git
+``git clone https://github.com/your-username/nvx-web-movies.git
 cd nvx-web-movies
 npm install
 # or
 yarn install
 # or
-pnpm install
+pnpm install``
 ```
 
 ### Running the Development Server
 
-```bash
+```zsh
 npm run dev
 # or
 yarn dev
@@ -44,7 +57,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to view the 
 
 ### Building for Production
 
-```bash
+```zsh
 npm run build
 npm start
 ```
