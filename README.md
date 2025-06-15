@@ -115,7 +115,7 @@ nvx-web-movies/
 
 The easiest way to deploy this Next.js application is by using [Vercel](https://vercel.com/), the platform from the creators of Next.js.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/m-satria-saputro/nvx-web-movies)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/)
 
 Click the button above to automatically clone and deploy this project. Don't forget to add the `NEXT_PUBLIC_TMDB_API_KEY` environment variable in your Vercel project settings.
 
