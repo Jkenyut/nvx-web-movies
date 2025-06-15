@@ -55,9 +55,9 @@ Ensure you have the following software installed:
 ### 2. Installation & Setup
 
 1.  **Clone this repository:**
-    ```bash
-    git clone [https://github.com/m-satria-saputro/nvx-web-movies.git](https://github.com/m-satria-saputro/nvx-web-movies.git)
-    cd nvx-web-movies
+    ```
+    git clone [this project]
+    cd project
     ```
 
 2.  **Install all dependencies:**
