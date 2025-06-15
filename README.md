@@ -138,7 +138,6 @@ This project is licensed under the [MIT License](https://opensource.org/license/
 **Satria Nur Saputro**
 
 -   Email: [satrianursaputro06@gmail.com](mailto:satrianursaputro06@gmail.com)
--   GitHub: [@m-satria-saputro](https://github.com/m-satria-saputro)
 
 ---
 
